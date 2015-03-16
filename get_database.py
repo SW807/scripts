@@ -7,6 +7,8 @@ import datetime
 import sys
 
 def main():
+    if(not os.path.isdir("databases")):
+        os.mkdir("databases")
     # Check that device is connected.
     cmd_check_device = ["adb", "devices"]
     result = subprocess.Popen(cmd_check_device, stdout=subprocess.PIPE).communicate()[0].strip()
