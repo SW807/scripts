@@ -1,0 +1,9 @@
+For at bruge dette script skal du bruge Python 2.7(Kan nok også bruges med 3+).
+platform-tools mappen for Android sdk skal i miljø variabler, da den skal bruge adb.exe 
+Herefter kører du script på følgende måde:
+
+    python get_database.py
+
+Dette burde give dig en prompt på telefonen, som du skal bekræfte før den kan forsætte.
+    
+Så burde der lægge en database fil i 'databases' mappen, som kan åbnes med f.eks. SqliteBrowser
