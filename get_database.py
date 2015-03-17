@@ -35,6 +35,5 @@ def main():
                 w.write(fileobj.read())
     os.remove('data.ab')  
     
-    
 if __name__ == '__main__':
     main()
