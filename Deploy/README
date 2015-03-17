@@ -1,0 +1,11 @@
+Ændr root_directory variablen til den folder med dine android projekter i, og muligvis ændr app_directories hvis du har cloned til forskellige mappenavne. 
+
+Hvis du vil cleane og build, ændr linje 23 til:
+
+    subprocess.Popen([gradlew_path, "clean", "build"]).wait()
+
+Hvis du ikke vil builde, og har alle apk'erne, skal du kommentere linjen uden.
+
+
+For at bruge:
+    python deploy.py
