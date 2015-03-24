@@ -1,0 +1,1 @@
+To use, move to the directory that contains all the modules. Only works with directory names that match the git repository names, e.g https://github.com/SW807/module-sound.git -> module-sound. 
